@@ -1,0 +1,19 @@
+{
+  "name": "inm320-dashboard",
+  "version": "1.0.0",
+  "description": "INM-320 Bootstrap Assignment — Support Dashboard Overview Page",
+  "scripts": {
+    "start": "lite-server",
+    "sass": "sass --watch scss/custom.scss:css/custom.css --style compressed",
+    "dev": "npm-run-all --parallel sass start"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "sass": "^1.69.5",
+    "npm-run-all": "^4.1.5"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "@popperjs/core": "^2.11.8"
+  }
+}
